@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ejercicio9</string>
+    <string name="imagen_dos">imagen dos</string>
+    <string name="todo">TODO</string>
+    <string name="imagen_uno">imagen uno</string>
+    <string name="imagen_cuatro">imagen cuatro</string>
 </resources>

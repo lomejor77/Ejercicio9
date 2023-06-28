@@ -9,45 +9,48 @@
 
     <ImageButton
         android:id="@+id/btnDos"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="80dp"
+        android:layout_width="123dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="44dp"
+        android:contentDescription="@string/imagen_dos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_assignment_ind_24" />
 
     <ImageButton
         android:id="@+id/btnTres"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
-        android:layout_marginBottom="372dp"
+        android:layout_width="128dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="276dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnUno"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnUno"
         app:srcCompat="@drawable/baseline_back_hand_24"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:contentDescription="imagen tres" />
 
     <ImageButton
         android:id="@+id/btnCuatro"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
-        android:layout_marginBottom="372dp"
+        android:layout_width="119dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="268dp"
+        android:contentDescription="@string/imagen_cuatro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnDos"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnDos"
-        app:layout_constraintTop_toBottomOf="@+id/btnDos"
-        app:layout_constraintVertical_bias="1.0"
         tools:ignore="SpeakableTextPresentCheck"
         tools:srcCompat="@drawable/baseline_balance_24" />
 
     <ImageButton
         android:id="@+id/btnUno"
-        android:layout_width="94dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="124dp"
+        android:layout_width="118dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="104dp"
+        android:contentDescription="@string/imagen_uno"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_foreground" />
