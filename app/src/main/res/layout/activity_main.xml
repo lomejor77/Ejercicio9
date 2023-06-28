@@ -4,22 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3F51B5"
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="128dp" />
+        android:id="@+id/btnDos"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_assignment_ind_24" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="121dp"
-        android:layout_height="124dp"
+        android:id="@+id/btnTres"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnUno"
+        app:layout_constraintStart_toStartOf="@+id/btnUno"
         app:srcCompat="@drawable/baseline_back_hand_24"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="128dp" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
+    <ImageButton
+        android:id="@+id/btnCuatro"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnDos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnDos"
+        app:layout_constraintTop_toBottomOf="@+id/btnDos"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/btnUno"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>
